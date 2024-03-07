@@ -343,7 +343,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.4, y: 0.5}
+  m_Size: {x: 5, y: 0.5}
   m_EdgeRadius: 0
 --- !u!1 &1766661388
 GameObject:
@@ -359,6 +359,10 @@ GameObject:
   - component: {fileID: 1766661392}
   - component: {fileID: 1766661393}
   - component: {fileID: 1766661394}
+  - component: {fileID: 1766661395}
+  - component: {fileID: 1766661396}
+  - component: {fileID: 1766661397}
+  - component: {fileID: 1766661398}
   m_Layer: 0
   m_Name: cat
   m_TagString: Untagged
@@ -381,7 +385,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -552,6 +556,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39119ebd6698a2c4c99e4524dbcd4586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumpForce: 680
+--- !u!114 &1766661395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766661388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39119ebd6698a2c4c99e4524dbcd4586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpForce: 680
+--- !u!114 &1766661396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766661388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39119ebd6698a2c4c99e4524dbcd4586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpForce: 680
+--- !u!114 &1766661397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766661388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39119ebd6698a2c4c99e4524dbcd4586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpForce: 680
+--- !u!114 &1766661398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766661388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39119ebd6698a2c4c99e4524dbcd4586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpForce: 680
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
